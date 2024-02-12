@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Metallic Crusade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Normalize.css">
+  <link rel="stylesheet" href="Style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="crt">
+    <div class="scanline"></div>
+    <nav>
+      <div class="frame">
+        <ul class="menu">
+          <li class="titlecontainer">
+            <div>
+              <p><a href="#Metallic">++Metallic Crusade++</a></p>
+            </div>
+          </li>
+          <li class="itemcontainer">
+            <div class="item">
+              <p>++Adeptus Mechanicus++</p>
+            </div>
+            <ul id="admech" class="submenu">
+              <li class="itemcontainer2">
+                <div class="item2"><a href="#hunterClade">Hunter Clade</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="#unitCards">Unit Datacards</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="#Strategic">Strategic Ploys</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="#Tactic">Tactical Ploys</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="#Tac">Tac Ops</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="#Equip">Equipment</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="#Doctrina">Doctrina Imperatives</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="#Dogma">Forge World Dogma</a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="itemcontainer" id="last">
+            <div class="item">
+              <p>++Necrons++</p>
+            </div>
+            <ul class="submenu">
+              <li class="itemcontainer2">
+                <div class="item2"><a href="">Extermination Cell</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="">Strategic Ploys</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="">Tactical Ploys</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="">Tac Ops</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="">Equipment</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="">Command Protocols</a></div>
+              </li>
+              <li class="itemcontainer2">
+                <div class="item2"><a href="">Dynastic Codes</a></div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="contentframe">
+      <section class="content">
+        <header>
+          <h1 id="Metallic">Metallic Crusade</h1>
+        </header>
+        <article>
+          <h3>
+            Metallic Crusade is a homebrewed version of Kill Team 2nd Edition with additions from Kill Team 1st Edition
+            and some inspiration from Warhammer 40k. More importantly, this homebrewed system was not created for the
+            purpose of being super balanced or optimized but to have fun with it.
+          </h3>
+          <h3>
+            The Core Rules for this version are exactly the same as they are for Kill Team 2nd Edition. New additions
+            and modifications include units, equipment, ploys and sub-factions and are explained in this site.
+
+          </h3>
+        </article>
+        <article>
+          <h3>
+            <ul class="links">
+              Links to unmodded content:
+              <li>
+                <div><a href="https://wahapedia.ru/kill-team2/the-rules/core-rules/" target="_blank">Core Rules</a>
+                </div>
+              </li>
+              <li>
+                <div><a href="https://wahapedia.ru/kill-team2/the-rules/tac-ops/" target="_blank">Generic Tac Ops</a>
+                </div>
+              </li>
+              <li>
+                <div><a
+                    href="https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fo907tpbdvms71.jpg%3Fwidth%3D2100%26format%3Dpjpg%26auto%3Dwebp%26s%3Dc50ee8c17a215d939eb2a626edc2b28907716a7b"
+                    target="_blank">Quick Reference Sheet</a></div>
+              </li>
+            </ul>
+          </h3>
+        </article>
+        <article>
+          <h1>Adeptus Mechanicus</h1>
+          <h2 id="hunterClade">Hunter Clade</h2>
+
+          <h3>Preamble</h3>
+          <p>Within the Legiones Skitarii of the Adeptus Mechanicus, the organizational structure is meticulously
+            designed to optimize operational efficiency and adaptability. At the forefront of this structure lies the
+            Clade, the smallest specialized unit within the hierarchy. Traditionally, a Clade consists of various
+            squads, each fulfilling specific roles on the battlefield. However, the Hunter Clade stands apart as a
+            specialized unit tailored for operations demanding finesse and precision.</p>
+          <p>A Hunter Clade is further subdivided into Microclades, each comprising pairs of Skitarii and Sicarians
+            teams. These Microclades are deployed instead of the entire Hunter Clade, ensuring optimal utilization of
+            resources while maintaining operational flexibility. While most Microclades boast a mix of unit types to
+            navigate diverse mission parameters, certain operations warrant a more specialized approach where a single
+            type of unit is the most effective option. In such cases, Microclades are designated as Strike, Recon,
+            Covert, or Assault, reflecting the predominant unit type within.</p>
+
+          <h3>Composition</h3>
+          <p>A Microclade consists of 2 teams selected from:</p>
+          <ul>
+            <li>Skitarii Vanguard</li>
+            <li>Skitarii Ranger</li>
+            <li>Sicarian Infiltrator</li>
+            <li>Sicarian Ruststalker</li>
+          </ul>
+          <p>A Microclade must have one leader selected from one of its teams.</p>
+
+          <h3>Skitarii Team</h3>
+          <ul>
+            <li>Consists of five Skitarii Ranger or Skitarii Vanguard operatives.
+            </li>
+            <li>Can include 1 Surveyor or 1 Diktat.
+            </li>
+            <li>Can include up to 2 Gunners or 3 if your Microclade has a Sicarian team. Each Gunner must be equipped
+              with a different weapon.
+            </li>
+            <li>May choose an Skitarii Ranger Alpha or Skitarii Vanguard Alpha as Leader respectively.</li>
+          </ul>
+
+          <h3>Sicarian Team</h3>
+          <ul>
+            <li>Consists of five Sicarian Infiltrators or Sicarian Ruststalkers.</li>
+            <li>May choose a Sicarian Infiltrator Princeps or Sicarian Ruststalker Princeps as Leader respectively.</li>
+          </ul>
+
+          <h3>Specialized Microclades</h3>
+          <p>A Microclade composed of two identical teams include one additional operative and passively benefits from a
+            dedicated protocol.</p>
+          <div class="card">
+            <div class="ploy2">
+              <table>
+                <tr>
+                  <td>
+                    <h3>Strike Microclade</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li><b>Composition:</b> 2 Skitarii Vanguard teams.</li>
+                      <li><b>Precision Protocol:</b> Reroll failed hit rolls of 1 when shooting. </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Recon Microclade</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li><b>Composition:</b> 2 Skitarii Ranger teams.</li>
+                      <li><b>Sentinel Protocol:</b> Reroll failed saving rolls of 1 against shooting attacks.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Stealth Microclade</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li><b>Composition:</b> 2 Sicarian Infiltrator teams.</li>
+                      <li><b>Stealth Protocol:</b> Reroll failed saving rolls of 1 when benefitting from Cover.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Assault Microclade</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li><b>Composition:</b> 2 Sicarian Ruststalker teams.</li>
+                      <li><b>Spearhead Protocol:</b> Reroll failed hit rolls of 1 when fighting.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <h3 id="unitCards">Unit Datacards:</h3>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>SKITARII RANGER/Vanguard</h3>
+                    </td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>7</td>
+                    <td>25mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9678; Galvanic rifle (R)</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>3/4</td>
+                    <td>Heavy, P1</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Radium carbine (V)</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>2/4</td>
+                    <td>Rending</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Gun butt</td>
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>2/3</td>
+                    <td>-</td>
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>Rad-Saturation (V): Visible enemies within 6": Treated as injured and, if activated, -2" to
+                      their movement.</td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>-</td>
+                  </tr>
+
+                  <tr>
+                    <td>Related</td>
+                    <td>Martial Protocol, Pursuers, Uplinked Vid-feed</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>skitarii r/v diktat</h3>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>7</td>
+                    <td>25mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9678; Galvanic rifle (R)</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>3/4</td>
+                    <td>Heavy, P1</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Radium carbine (V)</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>2/4</td>
+                    <td>Rending</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Gun butt</td>
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>2/3</td>
+                    <td>-</td>
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>Rad-Saturation (V): Visible enemies within 6": Treated as injured and, if activated, -2" to
+                      their movement.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>Enhanced Data-tether (1AP): Increase APL by 1 for a friendly operative within 6", not usable in
+                      enemy Engagement Range.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Related</td>
+                    <td>Martial Protocol, Pursuers, Uplinked Vid-feed, Command Uplink</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>skitarii r/v surveyor</h3>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>7</td>
+                    <td>25mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9678; Galvanic rifle (R)</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>3/4</td>
+                    <td>Heavy, P1</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Radium carbine (V)</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>2/4</td>
+                    <td>Rending</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Gun butt</td>
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>2/3</td>
+                    <td>-</td>
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>Rad-Saturation (V): Visible enemies within 6": Treated as injured and, if activated, -2" to
+                      their movement.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>Omnispex (1AP): Grant No Cover to ranged attacks of a friendly operative within 6" against a
+                      selected enemy, negating smoke and Obscured, but not usable within Engagement Range of enemies.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Related</td>
+                    <td>Martial Protocol, Pursuers, Uplinked Vid-feed</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>skitarii r/v gunner</h3>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>7</td>
+                    <td>25mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9678; Arc rifle</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>4/5</td>
+                    <td>AP1, Stun</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Plasma caliver (V)</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>5/6</td>
+                    <td>AP1, (Supercharge: AP2, Hot)</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Transuranic Arquebus (R)</td>
+                    <td>4</td>
+                    <td>2+</td>
+                    <td>5/3</td>
+                    <td>AP1, Heavy, Unwieldly, MW3</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Gun butt</td>
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>2/3</td>
+                    <td>-</td>
+                  </tr>
+
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>Rad-Saturation (V): Visible enemies within 6": Treated as injured and, if activated, -2" to
+                      their movement.</td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>-</td>
+                  </tr>
+
+                  <tr>
+                    <td>Related</td>
+                    <td>Martial Protocol, Pursuers, Uplinked Vid-feed</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>skitarii r/v alpha</h3>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>8</td>
+                    <td>25mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9678; Arc pistol</td>
+                    <td>4</td>
+                    <td>2+</td>
+                    <td>4/5</td>
+                    <td>RNG 6, AP1, Stun</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Master-crafted radium pistol</td>
+                    <td>4</td>
+                    <td>2+</td>
+                    <td>2/4</td>
+                    <td>RNG 6, Balanced, Rending</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Phosphor blast pistol</td>
+                    <td>4</td>
+                    <td>2+</td>
+                    <td>4/5</td>
+                    <td>RNG 6, Blast 1, No Cover</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Galvanic rifle (R)</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>3/4</td>
+                    <td>Heavy, P1</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Radium carbine (V)</td>
+                    <td>4</td>
+                    <td>2+</td>
+                    <td>2/4</td>
+                    <td>Rending</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Arc maul</td>
+                    <td>4</td>
+                    <td>4+</td>
+                    <td>4/5</td>
+                    <td>Stun</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Gun butt</td>
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>2/3</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Power weapon</td>
+                    <td>4</td>
+                    <td>4+</td>
+                    <td>4/6</td>
+                    <td>Lethal 5+</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Taser goad</td>
+                    <td>4</td>
+                    <td>4+</td>
+                    <td>3/4</td>
+                    <td>Lethal 5+, Stun</td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>Rad-Saturation (V): Visible enemies within 6": Treated as injured and, if activated, -2" to
+                      their movement.
+                      <br>Control Edict: Once per Turning Point, immediately activate a second ready friendly Hunter
+                      Clade operative within 6" after the first is activated.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Related</td>
+                    <td>Martial Protocol, Pursuers, Uplinked Vid-feed, Refractor Field</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>Sicarian ruststalker</h3>
+                    </td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>10</td>
+                    <td>40mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9876; Chordclaw and transonic razor</td>
+                    <td>5</td>
+                    <td>3+</td>
+                    <td>4/5</td>
+                    <td>Balanced</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Transonic blades</td>
+                    <td>5</td>
+                    <td>3+</td>
+                    <td>4/6</td>
+                    <td>Rending</td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>Wasteland Stalkers: In Cover, retain one additional defense dice as a successful normal save
+                      against shooting attacks.</td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>-</td>
+                  </tr>
+
+                  <tr>
+                    <td>Related</td>
+                    <td>Accelerant Agents, Optimised Gait</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>Sicarian ruststalker Princeps</h3>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>11</td>
+                    <td>40mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9876; Chordclaw and transonic bladesr</td>
+                    <td>5</td>
+                    <td>2+</td>
+                    <td>4/6</td>
+                    <td>Balanced, Rending</td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>Wasteland Stalkers: In Cover, retain one additional defense dice as a successful normal save
+                      against shooting attacks.</td>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>-</td>
+                  </tr>
+
+                  <tr>
+                    <td>Related</td>
+                    <td>Accelerant Agents, Optimised Gait, Refractor Field</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>Sicarian infiltrator</h3>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>10</td>
+                    <td>40mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9678; Flechette blaster</td>
+                    <td>5</td>
+                    <td>3+</td>
+                    <td>2/3</td>
+                    <td>RNG 6, Fusillade, Relentless</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Stubcarbine</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>3/4</td>
+                    <td>Ceaseless</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Power weapon</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>2/4</td>
+                    <td>Lethal 5+</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Taser Goad</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>2/4</td>
+                    <td>Lethal 5+, Stun</td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>-</td>
+                  </tr>
+
+                  <tr>
+                    <td>Related</td>
+                    <td>Neurostatic Interference, Concealed Position</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <div class="info">
+                <table>
+                  <tr>
+                    <td>
+                      <h3>Sicarian infiltrator princeps</h3>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>M</td>
+                    <td>APL</td>
+
+                    <td>DF</td>
+                    <td>SV</td>
+                    <td>W</td>
+                    <td>Base</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2</td>
+
+                    <td>3</td>
+                    <td>4+</td>
+                    <td>11</td>
+                    <td>40mm</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="info2">
+                <table>
+                  <tr>
+                    <td>&#9678; Flechette blaster</td>
+                    <td>5</td>
+                    <td>2+</td>
+                    <td>2/3</td>
+                    <td>RNG 6, Fusillade, Relentless</td>
+                  </tr>
+                  <tr>
+                    <td>&#9678; Stubcarbine</td>
+                    <td>4</td>
+                    <td>2+</td>
+                    <td>3/4</td>
+                    <td>Ceaseless</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Power weapon</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>2/4</td>
+                    <td>Lethal 5+</td>
+                  </tr>
+                  <tr>
+                    <td>&#9876; Taser Goad</td>
+                    <td>4</td>
+                    <td>3+</td>
+                    <td>2/4</td>
+                    <td>Lethal 5+, Stun</td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>Abilities</td>
+                    <td>Data Prehensiles: Once per Turning Point, reduce mission action cost by 1 AP (min 0AP) during
+                      this operative's activation; not cumulative with Servo-skull.</td>
+                  </tr>
+                  <tr>
+                    <td>Unique Actions</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Related</td>
+                    <td>Neurostatic Interference, Concealed Position, Refractor Field</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <h2 id="Strategic">Strategic Ploys</h2>
+          <div class="ployDirection">
+            <div class="card2">
+              <div class="lilCard">
+                <div class="ploy">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Martial Protocol <br>[1CP]</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>Vanguards within 6” of objectives/drop zone: Re-roll one attack die for shooting attacks.
+                        <br>
+                        <br>Rangers that haven't moved: Re-roll one attack die for shooting attacks.
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="lilCard">
+                <div class="ploy">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Accelerant Agents <br>[1CP]</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>Ruststalker operatives: Can perform a free Fight action or two during activation until end of
+                        Turning Point.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="lilCard">
+                <div class="ploy">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Neurostatic Interference [1CP]</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>Infiltrator operative within 6” of enemy: Prevent opponent from re-rolling attack dice during
+                        combat or shooting attacks.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="lilCard">
+                <div class="ploy">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Calculated Approach [1CP]</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>Operatives more than 6” from enemy: Retain failed critical saves as successful normal saves
+                        until end of Turning Point.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <h2 id="Tactic">Tactical Ploys</h2>
+
+          <div class="ployDirection">
+            <div class="card2">
+              <div class="lilCard">
+                <div class="ploy">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Pursuers <br>[1CP]</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>Recon: Two Ranger operatives perform free Dash.
+                        <br>
+                        <br>Infiltrate: Change activation order of two ready Ranger operatives.
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="lilCard">
+                <div class="ploy">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Command Override <br>[1CP]</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>Activate Doctrina Imperative for one operative for one round.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="lilCard">
+                <div class="ploy">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Concealed Position [1CP]</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>Set up Infiltrator with Conceal order near Heavy terrain, unchangeable during first Turning
+                        Point.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="lilCard">
+                <div class="ploy">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Motive Force Vitality [1CP]</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>Regain D3 lost wounds when ready operative activated.</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 id="Tac">Tac Ops</h2>
+
+          <div class="ployDirection">
+            <div class="card3">
+              <div class="lilCard">
+                <div class="ploy2">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Relentless Pursuit</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>Reveal in Target Reveal step of any Turning Point.</li>
+                          <br>
+                          <li>Score 1VP if no enemy operatives are more than 9" from friendly operatives by end of
+                            Turning Point.</li>
+                          <br>
+                          <li>Score 1VP for achieving first condition in subsequent Turning Points.</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card3">
+              <div class="lilCard">
+                <div class="ploy2">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Calculated Eradication</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>Reveal when a Doctrina Imperative first becomes active.</li>
+                          <br>
+                          <li>Score 1VP at end of Turning Point if active Imperative and total wounds lost by enemies
+                            exceed those by friendlies.
+                          </li>
+                          <br>
+                          <li>Score 1VP at end of Turning Point if different Imperative is active and total wounds lost
+                            by enemies exceed those by friendlies.</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card3">
+              <div class="lilCard">
+                <div class="ploy2">
+                  <table>
+                    <tr>
+                      <td>
+                        <h3>Assassination Order</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>Reveal in Target Reveal step of first Turning Point.</li>
+                          <br>
+                          <li>Opponent selects one operative.</li>
+                          <br>
+                          <li>Score 1VP if selected enemy operative is incapacitated before fourth Turning Point.</li>
+                          <br>
+                          <li>Score 1VP if friendly Hunter Clade operative within 3" of selected enemy operative
+                            achieves first condition.</li>
+                        </ul>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 id="Equip">Equipment</h2>
+          <ul>
+            <h3>Equipment Rules</h3>
+            <li>10 Equipment Points maximum.</li>
+            <li>Only 1 item per operative.</li>
+            <li>Equipment+ can be selected a maximum of once.</li>
+          </ul>
+
+          <div class="card">
+            <div class="ploy2">
+              <table>
+                <tr>
+                  <td>
+                    <h3>Uplinked Vid-Feed <br>[1EP]</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Operative: Ranger or Vanguard</li>
+                      <li>Ability: No penalty to BS when firing in Overwatch.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Servo-skull+ <br>[2EP]</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Operative: Any</li>
+                      <li>Ability: Once per Turning Point, perform a mission action for -1 AP during activation.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Mechadendrites+ <br>[2EP]</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Operative: Any</li>
+                      <li>Ability: Once per Turning Point, perform Pick Up action for -1 AP during activation.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Cense Bearer <br>[2EP]</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Operative: Any</li>
+                      <li>Ability: Ignore modifiers to Movement characteristic when within 3” of the Cense Bearer.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Command Uplink+ <br>[4EP]</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Operative: diktat</li>
+                      <li>Ability: Perform COMMAND UPLINK (2AP) to add 1CP, not within 6” of enemy operatives.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Enriched Rounds <br>[2EP]</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Operative: Any</li>
+                      <li>Ability: Add +1 Damage to selected radium carbine or master-crafted radium pistol.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Optimised Gait <br>[1EP]</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Operative: Ruststalker</li>
+                      <li>Ability: Ignore the first 2” distance of movement for climbs, drops, or traverses during
+                        activation.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Refractor Field+ <br>[3EP]</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Operative: Leader</li>
+                      <li>Ability: 4+ invulnerable save.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+
+            </div>
+          </div>
+          <h2 id="Doctrina">Doctrina Imperatives</h2>
+          <ul>
+            <h3>Doctrina Imperatives Rules</h3>
+            <li>Select a Doctrina Imperative at the beginning of each Strategy Phase and apply its Optimization effect.
+            </li>
+            <li>If a Doctrina Imperative isn't changed, at the beginning of the next round the player will suffer its
+              deprecation effect.</li>
+          </ul>
+
+          <div class="card">
+            <div class="ploy2">
+              <table>
+                <tr>
+                  <td>
+                    <h3>Protector <br>Imperative </h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Optimisation: Re-roll one attack dice for shooting attacks.</li>
+                      <li>Deprecation: Re-roll one critical hit for combat attacks.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Conqueror <br>Imperative</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Optimisation: Re-roll one attack dice for combat attacks.</li>
+                      <li>Deprecation: Re-roll one critical hit for shooting attacks.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Bulwark <br>Imperative</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Optimisation: Re-roll one defence dice for shooting attacks against Hunter Clade operatives.
+                      </li>
+                      <li>Deprecation: Hunter Clade operatives cannot perform Dash actions.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Aggressor <br>Imperative</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Optimisation: Add 1 to the Movement characteristic of Hunter Clade operatives.</li>
+                      <li>Deprecation: Defence dice cannot be automatically retained from Cover against shooting
+                        attacks.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Equalised <br>Imperative</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>No effect on Optimisation or Deprecation.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <h2 id="Dogma">Forge World Dogma</h2>
+          <ul>
+            <li>Select a Forge World Dogma when creating your Hunter Clade.</li>
+          </ul>
+          <div class="card">
+            <div class="ploy2">
+              <table>
+                <tr>
+                  <td>
+                    <h3>Mars<br>Glory to the Omnissiah</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Ignore deprecation effect of a Doctrina Imperative or activate a non-active one once per
+                        encounter.</li>
+                      <li>Can Re-roll one hit, wound, or save roll per turning point.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Graia<br>Refusal to Yield</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Roll a dice when reduced to 0 wounds: on 6, restore to 1 wound remaining (once per operative).
+                      </li>
+                      <li>Roll a dice when losing a wound from mortal wound: on 5+, that wound is not lost.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Metalica<br>Relentless March</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Can make a normal move and shoot Heavy weapons taking a -1 to their hit rolls.</li>
+                      <li>+1” to Normal Movement.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Lucius<br>The Solar Blessing</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Treat enemy AP -1 attacks as AP 0 for saving throws.</li>
+                      <li>Improve AP by -1 with Heavy Weapons.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Agripinaa<br>Staunch Defenders</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Successfully hit on Overwatch with a roll of 5 or 6.</li>
+                      <li>Improve AP by 1 when targeting operatives within 4”.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Stygies VIII<br>Shroud Protocols</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Enemy ranged attacks beyond 4” receive a -1 to hit.</li>
+                      <li>Can Charge while having a Conceal order.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Ryza<br>Red in Cog and Claw</h3>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Re-roll wound rolls of 1 for attacks.</li>
+                      <li>+1” to Charge.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+
+            </div>
+          </div>
+        </article>
+      </section>
+    </section>
+  </div>
+</body>
+
+</html>
